@@ -1,0 +1,7 @@
+.imagem__destaque {
+    background-image: url(../img/img-destaque.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 3.7rem);
+    width: 100%;  
+}
