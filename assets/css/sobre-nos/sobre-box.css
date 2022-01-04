@@ -1,0 +1,10 @@
+.sobre__box {
+    background-color: var(--background-sobre-box);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+    
+}

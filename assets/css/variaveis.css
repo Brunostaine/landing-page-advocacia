@@ -1,5 +1,10 @@
 :root {
+    /* Cores */
     --cor-titulo-principal: rgb(14, 13, 13);
+    --cor-titulos: #fff;
+    --cor-texto: #fff;
     --cor-menu: #050505;
     --cor-hover: #969292;
+    --background-sobre-box: rgb(172, 166, 166);
+
 }
