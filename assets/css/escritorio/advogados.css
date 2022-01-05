@@ -1,0 +1,17 @@
+.advogados {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.advogado__item {
+    text-align: center;
+    margin-left: 8px;
+    width: 30%;
+}
+
+.img__item {
+    border-radius: 50%;
+    width: 200px;
+}
