@@ -1,0 +1,78 @@
+.contato__formulario {
+    display: flex;
+}
+.contato {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    text-align: center;
+}
+
+.contato__titulo {
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contato__botao {
+    background-color: var(--background-botao);
+    border: none;
+    border-radius: 5px;
+    color: var(--cor-texto);
+    font-size: 1.8rem;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    padding: 10px;
+    transition: .6s;
+    width: 30rem;
+}
+
+.contato__botao:hover {
+    background-color: var(--background-botao-hover);
+    cursor: pointer;
+}
+
+.formulario {
+    height: 100vh;
+    width: 50%;
+}
+
+.formulario__item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.formulario__titulo {
+    text-align: center;
+}
+
+.textarea {
+    resize: none;
+    padding: 0 5px;
+}
+
+.formulario__input {
+    padding: 0 5px;
+}
+
+.formulario__butao {
+    background-color: var(--background-botao-form);
+    border: none;
+    border-radius: 5px;
+    color: var(--cor-texto);
+    margin: 0 auto;
+    margin-top: 16px;
+    transition: .6s;
+    padding: 10px;
+    width: 15rem;
+}
+
+.formulario__butao:hover {
+    background-color: var(--background-botao-form-hover);
+    cursor: pointer;
+}
