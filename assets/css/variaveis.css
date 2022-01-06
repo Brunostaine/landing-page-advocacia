@@ -5,6 +5,10 @@
     --cor-texto: #fff;
     --cor-menu: #050505;
     --cor-hover: #969292;
-    --background-sobre-box: rgb(172, 166, 166);
+    --background-sobre-box: rgb(9, 121, 129);
+    --background-botao: rgb(35, 108, 117);
+    --background-botao-hover: rgb(35, 165, 182);
+    --background-botao-form: rgb(77, 7, 83);
+    --background-botao-form-hover: rgb(123, 13, 133);
 
 }
