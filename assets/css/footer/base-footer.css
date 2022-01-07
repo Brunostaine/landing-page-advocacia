@@ -1,0 +1,9 @@
+.base__footer {
+    align-items: center;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    justify-content: center;
+}
+
