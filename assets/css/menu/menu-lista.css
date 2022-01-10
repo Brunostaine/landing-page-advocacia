@@ -1,3 +1,10 @@
 .menu__lista {
     display: flex;
+    width: 100%;
+}
+
+@media screen and (max-width: 997px) {
+    .menu__lista {
+        justify-content: center;
+    }
 }
