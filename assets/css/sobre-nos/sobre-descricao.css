@@ -10,3 +10,9 @@
         width: 90%;
     }    
 }
+
+@media screen and (max-width: 675px) {
+   .sobre__descricao {
+       width: 100%;
+   }
+}
