@@ -1,5 +1,6 @@
 .contato__formulario {
     display: flex;
+    width: 100vw;
 }
 .contato {
     display: flex;
@@ -34,8 +35,9 @@
 }
 
 .formulario {
-    height: 100vh;
-    width: 30%;
+    height: auto;
+    width: 50%;  
+    margin-bottom: 16px; 
 }
 
 .formulario__item {
@@ -44,7 +46,7 @@
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
-    width: 60%;
+    width: 100%;
 }
 
 .formulario__titulo {
@@ -92,13 +94,13 @@
             margin-bottom: 16px;    
         }
         .formulario__item {
-            width: 100%;   
-        }
-        
+            width: 60%;  
+            flex-wrap: nowrap;
+        }       
+}
 
-        
-        
-        
-
-        
+@media screen and (max-width: 675px) {
+    .formulario__item {
+        width: 100%;
+    }
 }
