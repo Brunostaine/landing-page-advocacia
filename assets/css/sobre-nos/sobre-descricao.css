@@ -4,3 +4,9 @@
     text-align: justify;
     width: 60%;
 }
+
+@media screen and (max-width: 997px) {
+    .sobre__descricao {
+        width: 90%;
+    }    
+}
