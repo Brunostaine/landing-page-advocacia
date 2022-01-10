@@ -9,4 +9,11 @@
     color: var(--cor-hover);
     text-decoration: underline;
 }
+
+@media screen and (max-width: 997px) {
+    .menu__link {
+        font-size: 2rem;
+    }
+}
+
     
