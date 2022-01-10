@@ -11,3 +11,13 @@
     margin-left: 16px;
     text-decoration: none;
 }
+
+@media screen and (max-width: 997px) {
+    .cabecalho {
+        flex-direction: column;
+        width: 100%;
+    }
+    .cabecalho__titulo {
+        justify-content: center;
+    }
+}
