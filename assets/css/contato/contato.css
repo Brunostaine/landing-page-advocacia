@@ -89,16 +89,14 @@
         .formulario {
             width: 100%;
             height: auto;
-            margin-bottom: 16px;
-            
+            margin-bottom: 16px;    
         }
         .formulario__item {
-            width: 100%;
-            overflow: hidden;
+            width: 100%;   
         }
-        .formulario__input {
-            margin: 8px 0;
-        }
+        
+
+        
         
         
 

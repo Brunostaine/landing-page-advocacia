@@ -23,12 +23,11 @@
     }
     .thumbnail {
         width: 100%;
-    }
-
-    
-    
+    }   
 }
 
 @media screen and (max-width: 675px) {
-   
+    .thumbnail {
+        margin: 8px auto;
+    }
 }
