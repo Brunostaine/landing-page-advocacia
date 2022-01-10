@@ -76,3 +76,20 @@
     background-color: var(--background-botao-form-hover);
     cursor: pointer;
 }
+
+@media screen and (max-width: 997px) {
+        .contato__formulario {
+            flex-direction: column;
+        }
+
+        .contato {
+            width: 100%;
+        }
+
+        .formulario {
+            width: 100%;
+            height: 40vh;
+        }
+        
+    
+}
