@@ -5,3 +5,9 @@
     margin-top: 16px;
     margin-bottom: 16px;
 }
+
+@media screen and (max-width: 765px) {
+    .escritorio__box {
+        flex-direction: column;
+    }
+}
