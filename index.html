@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
 
     <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/menu/botao.css">
     <link rel="stylesheet" href="assets/css/menu/menu.css">
     <link rel="stylesheet" href="assets/css/menu/menu-lista.css">
     <link rel="stylesheet" href="assets/css/menu/menu-item.css">
@@ -29,7 +30,11 @@
     <header class="cabecalho">
         <h1><a class="cabecalho__titulo" href="index.html">ABC Advocacia Empresarial</a></h1>
 
-        <nav class="menu">
+        <nav id="nav" class="menu">
+            <button id="btn">
+                <span id="hamburguer"></span>
+            </button>
+
             <ul class="menu__lista">
                 <li class="menu__item"><a class="menu__link" href="#">Sobre Nós</a></li>
                 <li class="menu__item"><a class="menu__link" href="#">Escritório</a></li>
@@ -135,5 +140,7 @@
             <p class="">&copy; Todos os direitos reservados.</p>
         </div>
     </footer>
+
+    <script src="assets/js/botao.js"></script>
 </body>
 </html>
